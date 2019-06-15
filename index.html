@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Super-Calculatrice</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./app.js" type="text/javascript" charset="utf-8" defer></script>
+  </head>
+  <body>
+    <div class="global">
+
+      <div id="ecran" class="ecran" style="text-align: left;">
+
+      </div>
+
+      <div id="pave" class="pave">
+
+        <button id="on" class="spec" data-action="on"> ON </button>
+        <button id="off" class="spec" data-action="off"> OFF </button><br><br>
+
+        <button class="spec" data-action="erase" style="margin-right: 30px;"> CE </button>
+        <button class="spec" data-action="memory-recall" style="margin-right: 30px;"> RCM </button>
+        <button class="spec" data-action="memory-substract" style="margin-right: 30px;"> M- </button>
+        <button class="spec" data-action="memory-add" style="margin-right: 30px;"> M+ </button>
+        <button class="spec" data-action="mode"> Mode </button><br><br><br><br>
+
+        <button class="item" value="sqrt" data-action="sqrt"> √ </button>
+        <button class="item" data-action="power"> X<sup>y</sup> </button>
+        <button class="item" data-action="percent"> % </button>
+        <button class="item" data-action="divide"> ÷ </button><br><br>
+
+        <button class="item">7</button>
+        <button class="item">8</button>
+        <button class="item">9</button>
+        <button class="item" data-action="multiply"> &times; </button><br><br>
+
+        <button class="item">4</button>
+        <button class="item">5</button>
+        <button class="item">6</button>
+        <button class="item" data-action="substract"> - </button><br><br>
+
+        <button class="item">1</button>
+        <button class="item">2</button>
+        <button class="item">3</button><br><br>
+        <div class="last">
+          <button class="item num">0</button>
+          <button class="item num" data-action="decimal">.</button>
+          <button class="item" data-action="calculate"> = </button>
+        </div>
+        <button id="plus" class="item" data-action="add"> + </button>
+        <br><br>
+      </div>
+    </div>
+  </body>
+</html>

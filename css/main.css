@@ -1,0 +1,76 @@
+      @font-face {
+          font-family: 'DS-Digital';
+          src:url('fonts/numeric/DS-Digital.woff') format('woff'),
+              url('fonts/numeric/DS-Digital.svg#DS-Digital') format('svg'),
+              url('fonts/numeric/DS-Digital.eot'),
+              url('fonts/numeric/DS-Digital.eot?#iefix') format('embedded-opentype'); 
+          font-weight: normal;
+          font-style: normal;
+      }
+      @font-face {
+          font-family: 'Centabel-Book';
+          src:url('fonts/centabel/Centabel-Book.woff') format('woff'),
+              url('fonts/centabel/Centabel-Book.svg#Centabel-Book') format('svg'),
+              url('fonts/centabel/Centabel-Book.eot'),
+              url('fonts/centabel/Centabel-Book.eot?#iefix') format('embedded-opentype'); 
+          font-weight: normal;
+          font-style: normal;
+      }
+
+      button{
+         outline:none;
+         border:0.3px solid white;
+         border-radius: 10px;
+      }
+      button::-moz-focus-inner {
+        border: 0;
+      }
+      #off{
+        background-color: #e60505e8; 
+        color: white; 
+        margin-left: 249px;
+      }
+      #on{
+        margin-right: 30px;
+        background-color: #09b134f2;
+        color: white;
+      }
+      .global{
+        width: 400px;
+        border: 1px solid #929292;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #00000069;
+        margin-left: 35%;
+      }
+      .ecran{
+        height: 75px;
+        font-size: 1.3em;
+        font-family: DS-Digital;
+        color: black;
+        padding: 10px;
+        background-color: #23380480;
+      }
+      .pave{
+        padding: 5px;
+        font-family: Centabel-Book;
+        margin-top: 10px;
+      }
+      .spec {
+        width: 50px;
+        height: 30px;
+        background-color: #27c2bce6;
+        color: white;
+      }
+      .item {
+        width: 94px;
+        height: 50px;
+        background-color: #def3ed9c;
+        font-size: 1.2em;
+      }
+      #plus{
+        height: 130px;
+        position: relative;
+        top: -128px;
+        float: right;
+      }
